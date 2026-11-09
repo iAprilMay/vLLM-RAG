@@ -1,0 +1,8 @@
+# Installed dependencies (fetched via `npm install` in install.sh)
+node_modules/
+
+# LM Studio build output produced by `lms dev --install`
+.lmstudio/
+
+# Logs
+*.log

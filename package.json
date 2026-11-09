@@ -1,0 +1,22 @@
+{
+  "name": "vllm-rag",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "lms dev",
+    "install-plugin": "lms dev --install -y",
+    "uninstall-plugin": "bash scripts/uninstall.sh",
+    "check": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts",
+    "verify": "npm run check && npm test"
+  },
+  "dependencies": {
+    "@lmstudio/sdk": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}
